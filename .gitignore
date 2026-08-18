@@ -1,23 +1,69 @@
-HELP.md
+# Compiled class file
+*.class
+
+# Log files
+*.log
+*.log.*
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven build outputs
 target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Gradle build outputs
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+.gradle/
 
+# Spring Boot / Initializr
+HELP.md
+
+# Virtual Machine crash logs
+hs_err_pid*
+replay_pid*
+*.hprof
+
+# IDEs & Editors
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
+out/
+
+### Eclipse / Spring Tool Suite (STS) ###
+.apt_generated
+.apt_generated_tests
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+bin/
+
+### Visual Studio Code ###
+.vscode/
+*.code-workspace
 
 ### NetBeans ###
 /nbproject/private/
@@ -25,9 +71,32 @@ target/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
-.vscode/
+### Editors & Backup files ###
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# Operating System Files
+### macOS ###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+### Windows ###
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+### Linux ###
+*~
+.fuse_hidden*
+.directory
+.Trash-*
