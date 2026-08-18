@@ -1,0 +1,13 @@
+package com.meetingRoom.MeetingRoomAllocation;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MeetingRoomAllocationApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MeetingRoomAllocationApplication.class, args);
+	}
+
+}
